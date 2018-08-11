@@ -1,10 +1,10 @@
-<odoo>
+<flectra>
   <data>
     <!-- explicit list view definition -->
     <!--
-    <record model="ir.ui.view" id="odoo_numverify.list">
-      <field name="name">odoo_numverify list</field>
-      <field name="model">odoo_numverify.odoo_numverify</field>
+    <record model="ir.ui.view" id="flectra_numverify.list">
+      <field name="name">flectra_numverify list</field>
+      <field name="model">flectra_numverify.flectra_numverify</field>
       <field name="arch" type="xml">
         <tree>
           <field name="name"/>
@@ -17,18 +17,18 @@
 
     <!-- actions opening views on models -->
     <!--
-    <record model="ir.actions.act_window" id="odoo_numverify.action_window">
-      <field name="name">odoo_numverify window</field>
-      <field name="res_model">odoo_numverify.odoo_numverify</field>
+    <record model="ir.actions.act_window" id="flectra_numverify.action_window">
+      <field name="name">flectra_numverify window</field>
+      <field name="res_model">flectra_numverify.flectra_numverify</field>
       <field name="view_mode">tree,form</field>
     </record>
     -->
 
     <!-- server action to the one above -->
     <!--
-    <record model="ir.actions.server" id="odoo_numverify.action_server">
-      <field name="name">odoo_numverify server</field>
-      <field name="model_id" ref="model_odoo_numverify_odoo_numverify"/>
+    <record model="ir.actions.server" id="flectra_numverify.action_server">
+      <field name="name">flectra_numverify server</field>
+      <field name="model_id" ref="model_flectra_numverify_flectra_numverify"/>
       <field name="state">code</field>
       <field name="code">
         action = {
@@ -42,19 +42,19 @@
 
     <!-- Top menu item -->
     <!--
-    <menuitem name="odoo_numverify" id="odoo_numverify.menu_root"/>
+    <menuitem name="flectra_numverify" id="flectra_numverify.menu_root"/>
     -->
     <!-- menu categories -->
     <!--
-    <menuitem name="Menu 1" id="odoo_numverify.menu_1" parent="odoo_numverify.menu_root"/>
-    <menuitem name="Menu 2" id="odoo_numverify.menu_2" parent="odoo_numverify.menu_root"/>
+    <menuitem name="Menu 1" id="flectra_numverify.menu_1" parent="flectra_numverify.menu_root"/>
+    <menuitem name="Menu 2" id="flectra_numverify.menu_2" parent="flectra_numverify.menu_root"/>
     -->
     <!-- actions -->
     <!--
-    <menuitem name="List" id="odoo_numverify.menu_1_list" parent="odoo_numverify.menu_1"
-              action="odoo_numverify.action_window"/>
-    <menuitem name="Server to list" id="odoo_numverify" parent="odoo_numverify.menu_2"
-              action="odoo_numverify.action_server"/>
+    <menuitem name="List" id="flectra_numverify.menu_1_list" parent="flectra_numverify.menu_1"
+              action="flectra_numverify.action_window"/>
+    <menuitem name="Server to list" id="flectra_numverify" parent="flectra_numverify.menu_2"
+              action="flectra_numverify.action_server"/>
     -->
   </data>
-</odoo>
+</flectra>

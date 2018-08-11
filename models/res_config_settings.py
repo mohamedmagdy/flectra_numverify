@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import fields, models, api
-from odoo.exceptions import AccessDenied
+from flectra import fields, models, api
+from flectra.exceptions import AccessDenied
 
 
 class ResConfigSettings(models.TransientModel):

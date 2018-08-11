@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_odoo_numverify_odoo_numverify,odoo_numverify.odoo_numverify,model_odoo_numverify_odoo_numverify,,1,0,0,0
+access_flectra_numverify_flectra_numverify,flectra_numverify.flectra_numverify,model_flectra_numverify_flectra_numverify,,1,0,0,0

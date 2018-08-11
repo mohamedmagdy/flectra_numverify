@@ -2,9 +2,9 @@
 import requests
 from werkzeug.exceptions import Forbidden
 
-from odoo import _
-from odoo.http import request
-from odoo.addons.website_sale.controllers.main import WebsiteSale
+from flectra import _
+from flectra.http import request
+from flectra.addons.website_sale.controllers.main import WebsiteSale
 
 
 class WebsiteSale(WebsiteSale):
